@@ -24,6 +24,7 @@ const routes: Routes = [
       { path: '403', component: Error403Component },
       { path: '404', component: Error404Component },
       { path: '500', component: Error500Component },
+  { path: 'users', loadChildren: () => import('./users/users.module').then(m => m.UsersModule) },
     ],
   },
   {

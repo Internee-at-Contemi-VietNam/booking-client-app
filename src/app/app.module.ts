@@ -25,7 +25,6 @@ export function TranslateHttpLoaderFactory(http: HttpClient) {
 import { LoginService } from '@core/authentication/login.service';
 import { FakeLoginService } from './fake-login.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from './material/ material.module';
 
 @NgModule({
   declarations: [AppComponent],
